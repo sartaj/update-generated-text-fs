@@ -1,0 +1,22 @@
+{
+  "name": "update-generated-text-fs",
+  "version": "1.0.0",
+  "description": "Update or append a block of generated text from a file.",
+  "main": "index.node.js",
+  "scripts": {
+    "test": "node ./specifications"
+  },
+  "files": [
+    "index.node.js"
+  ],
+  "author": "sartaj <sartaj@sartaj.me>",
+  "license": "MIT",
+  "dependencies": {
+    "update-generated-text": "1.0.1",
+    "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "tape": "^4.9.1"
+  }
+}
